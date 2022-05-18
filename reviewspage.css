@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    
+
+    
+}
+
+.header-image{
+    width: 100%;
+    height: 730px;
+    background: url(man.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    
+}
+
+.nav{
+    background-color: rgb(37, 37, 37);
+    height: 74px; ;
+}
+
+
+
+.amaze,.wow{
+    color:aqua;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    float:right ;
+    padding: 16px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+
+.nav a.logout:hover{
+    color: red;
+}
+
+.nav a:hover{
+    background: rgb(7, 178, 190);
+    color: rgb(2, 32, 34);
+    transition: 0.3s;
+}
+
+.home{
+    margin-left: 580px;
+    margin-top: -69px;
+    text-shadow: 2px 2px 8px gray;
+}
+
+.top{
+    background-color:#faf7e7 ;
+    text-shadow: 2px 2px 5px rgb(22,22,22);
+}
+
+.brazil{
+    margin-left: 70px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+    border-radius: 30px;
+    
+}
+
+.kitchen{
+    margin-left: 80px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+
+    border-radius: 30px;
+
+}
+
+.flower{
+    margin-left: 80px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+
+    border-radius: 30px;
+}
+
+.basket{
+    margin-left: 70px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+
+    border-radius: 30px;
+}
+
+.statue{
+    margin-left: 85px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+
+    border-radius: 30px;
+}
+
+.wall_hanging{
+    margin-left: 85px;
+    height: 250px;
+    width:400px;
+    border: 5px solid black;
+
+    border-radius: 30px;
+}
+
+
+#submit{
+    position: relative;
+    top: -27px;
+    left: 2px;
+    background-color: #3578fa;
+  }
+
+ 
+
+  #submit:hover{
+    background-color: #ffc107;
+    color: #222;
+    transition: all .3s;
+  }
+
+  
+
+  #comment:hover{
+     background-color: rgb(243, 242, 242);
+  }
+
+  .rating{
+    color: rgb(253,180,42);
+    margin-left: 135px;
+    
+}
+
+.suggestion{
+    text-shadow: 2px 1px 2px darkgrey;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    background: #303036;
+    color: #d3d3d3;
+    height: 450px;
+    position: relative;
+}
+
+.footer .footer-content{
+    
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex:1;
+    padding: 25px;
+    
+}
+
+.footer .footer-content .footer-section p{
+    padding-top: 30px;
+}
+
+.footer .footer-bottom{
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    padding-top: 20px;
+} 
+.footer .footer-content .about .socials a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color: honeydew;
+    transition: all .3sec;
+}
+
+.footer .footer-content .about .socials a:hover{
+    border: 3px solid white;
+    color: white;
+    transition: all .3sec;
+}
+
+
+
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color:honeydew;
+    text-decoration: none;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3sec;
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: 0.9rem 1.4rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+    background: #1a1a1a;
+}
+
+.btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    background-color:whitesmoke;
+    font-weight: 700;
+
+}
+
+.footer .footer-content .contact-form .contact-btn{
+    float: right;
+    padding-bottom: 3px;
+    padding-top:2px ;
+}

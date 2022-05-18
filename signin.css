@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+  
+
+.signin {
+    width: 709px;
+    height: 612px;
+    color: rgb(241, 228, 228);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0px 44px;
+    background-color: rgb(35 26 21 / 85%);
+}
+
+input[type=text], input[type=password] {
+    width: 97%;
+    padding: 12px;
+    margin: 6px 0 25px 0px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 47%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f74235;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 48%;
+}
+
+
+.container {
+  padding: 0px 80px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }

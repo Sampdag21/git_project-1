@@ -1,0 +1,93 @@
+<html>
+<head><title>AQI Checker/Recycle Factory</title>
+<link rel='stylesheet' href='aqi.css'/>
+<link rel="icon"  href="C:/Users/DELL/Downloads/favicon.jpeg"/>
+
+<script>
+console.log("This is AQI page console")
+</script>
+
+
+</head>
+<body background-color:white>
+
+<header>
+        <div class="logo">
+            <span class="amaze" style="font-size: 50px;">Re</span><span style="font-size: 45px;"> use</span> &emsp; <span class="wow" style="font-size: 50px;">Fac</span> <span style="font-size: 45px;">tory</span>
+			<img src="leaf.jpg" height="35px" width="40px">
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="new.html">Blog </a></li>
+            <li><a href="project1.html">Available Waste Ideas</a></li>
+            <li><a href="funtodo.html">Fun To Do</a></li>
+            <li><a href="reviewspage.html">Reviews</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+			<li><a href="aqi.html">AQI</a>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </header>
+	<div class="aqi">
+	<h1 style=color:aqua;><center>Air Quality Index </center></h1>
+	<h3>Select your area AQI</h3><br><br>
+	<label for="aqi"><b>AQI Range</b></label><br><br>
+	<input type="button"  value="0-50" onclick="first()">
+	<input type="button"  value="51-100" onclick="sec()">
+	<input type="button"  value="101-200" onclick="third()">
+	<input type="button"  value="201-300" onclick="four()">
+	<input type="button"  value="301-400" onclick="five()">
+	<input type="button"  value="401-500" onclick="six()">
+	<input type="button"  value="more than 500" onclick="seven()">
+	<script>
+	function first()
+	{
+	window.alert("Your air quality: Good");
+    
+	}
+	function sec()
+	{
+	window.alert("Your air quality: Satisfactory");
+	}
+	function third()
+	{
+	window.alert("Your air quality: Moderate");
+	}
+	function four()
+	{
+	window.alert("Your air quality: Poor");
+	}
+	function five()
+	{
+	window.alert("Your air quality: Very poor");
+	}
+	function six()
+	{
+	window.alert("Your air quality: Severe");
+	}
+	function seven()
+	{
+	window.alert("Your air quality: Hazardous");
+	}
+	
+	
+	</script>
+	<br><br>
+	<p><b>To calculate AQI <a href="http://www.sparetheair.com/calculatorc.cfm">click here</a></b></p>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+    </html>
+	
